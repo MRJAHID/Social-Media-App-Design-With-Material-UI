@@ -8,7 +8,7 @@ import Add from './components/Add';
 
 const App = () => {
     return (
-        <Box>
+        <Box bgcolor={'Background.default'} color="text.primary">
             <Navbar />
             <Stack direction="row" spacing={2} justifyContent="space-between">
                 <Sidebar />
